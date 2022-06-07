@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#music{
+  text-align: center;
+  
+}
+
+h1{
+    color:tomato;
+    margin: 20px 0;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li {
+    display:inline-block;
+    margin:10px 8px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(110, 34, 98);
+    font-weight: bold;
+}
+
+main h2{  
+    margin:10px 0;
+}
+
+main h4{
+    margin:10px 0;
+    color:teal;
+    
+}
+
+main ul{
+    list-style-position: inside;
+   
+}
+
+.urunler{
+    list-style: none;
+    margin-top:30px;
+}
+
+.urunler li{
+    
+    margin:15px;
+}
+
+.price{
+    color: white;
+    background-color: tomato;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
