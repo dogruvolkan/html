@@ -16,6 +16,7 @@ body{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;  
+    
 }
 
 #header li{
@@ -28,6 +29,7 @@ body{
     text-decoration: none;
     color: #000000;
     transition: all 0.3s ease-in-out;
+    font-size: 13px;
 }
 
 #header a:hover{
