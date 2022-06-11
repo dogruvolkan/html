@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 14px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #FFC017;
+    border-bottom:1px solid #414141;
+    width:100%;
+    height:72px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+}
+
+
+nav img{
+    width:180px;
+}
+
+.main{
+    background-color: #FFC017;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    border-bottom:1px solid #414141;
+}
+
+.main h1{
+    font-size: 70px;
+    font-family: 'Joan', serif;
+    padding-bottom: 30px;
+    color: #080808;
+}
+
+.main p{
+    font-size: 20px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main a{
+    color: #000;
+}
+
+.main a[class="btn"]{
+    border:1px solid #000;
+    padding:10px 20px;
+}
+
+.main img{
+    width:400px;
+    margin-left: 160px;
+}
+
+.trends{
+    padding-bottom: 50px;
+    border-bottom:1px solid #414141;
+}
+
+.trends .logotrend{
+    width: 20px;
+    border:1px solid #000;
+    border-radius: 50%;  
+    
+}
+
+.trends .trendtext{
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    top:-22px;
+    left:25px;
+}
+
+.trends .material-symbols-outlined {
+    font-size: 20px;
+    position: relative;
+    top:2px;
+    left:-10px;
+}
+
+.trends .star{
+    font-size:14px;
+    padding-left: 15px;
+}
+
+.trends h2{
+    color:#E6E6E6;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.content .material-symbols-outlined{
+    font-size: 20px;
+    position: relative;
+    top:3px;
+    left:5px;
+}
+
+.discover{
+    padding-bottom: 25px;
+    position: sticky;
+    top:100px;
+    left: 0;
+    z-index: 1;
+
+}
+
+
+.discover p{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.discover .tags a{
+    text-decoration: none;
+    color:#757575;
+    font-size: 13px;
+    border:1px solid #757575;
+    padding: 6px 12px;
+}
+
+.discover .topic{
+    text-decoration: none;
+    color:#1a8917;
+    font-size: 14px;
+    font-weight: 400px;
+
+}
+
+footer{
+    border-top:1px solid rgba(0, 0, 0, 0.2);
+}
+
+footer a{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    text-decoration: none;
+    color:#757575;
+    font-size: 14px;
+    font-weight: 400px;
+    padding-right: 12px;
+}
